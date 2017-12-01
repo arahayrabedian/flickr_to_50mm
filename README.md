@@ -20,6 +20,8 @@ Currently, `git clone` this repository, `pip install -r requirements.txt` and th
  - Pretty sure things go wonky if an album has more than 500 photos (due to pagination), PRs welcome to account for that since I don't have any albums to practice on.
  - We don't do much status code checking or rate limit checking, the assumption is that everything is always perfect... I mean, this is not production software.
  - All or nothing processed - there is no ability to specify albums, if there's popular demand it's actually easy to implement, will do, just open an issue.
+ - Apparently every image ever generated is a `jpg` - this is an operating assumption that may or may not every be cleared up.
+ - filenames with spaces have some issues, this _may_ be a 50mm bug, looking in to it slowly but surely.
 
 ### Unknown Limitations
 
