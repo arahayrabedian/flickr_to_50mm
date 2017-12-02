@@ -58,8 +58,7 @@ def get_photo_configuration(api_key, user_id, album_id, thumb_ordering_from_flic
     }
 
 
-
-if __name__ == "__main__":
+def main():
 
     parser = argparse.ArgumentParser(
         description='Build configuration files for 50mm web gallery by '
