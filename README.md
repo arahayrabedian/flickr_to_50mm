@@ -6,13 +6,17 @@ For exporting your actual photos from flickr I can recommend [flickrtouchr](http
 
 ### Installation
 
-Currently, `git clone` this repository, `pip install -r requirements.txt` and then run as below. virtualenvs are recommended.
+flickr_to_50mm is available on pypi, you can run `pip install flickr_to_50mm` to get a hold of it.
+
+### Development/Contributing/Tinkering
+
+`git clone` this repository, `pip install -r requirements.txt` and then run as below. virtualenvs are highly recommended.
 
 ### Usage
 
 1. Get yourself an API key from flickr from here: https://www.flickr.com/services/apps/create/apply/
 1. Find your user ID, this is often in your album URLS, you'll see it in links like: `https://www.flickr.com/photos/<YOUR_ID_IS_HERE>/albums`
-1. `python flickr_to_50mm.py THAT_API_KEY_FROM_STEP_1 THAT_USER_ID_FROM_STEP_2`
+1. `flickr_to_50mm THAT_API_KEY_FROM_STEP_1 THAT_USER_ID_FROM_STEP_2`
 1. You should get a yaml file dumped for each album on flickr
 
 ### Known limitations
