@@ -44,7 +44,7 @@ setup(
       'Programming Language :: Python :: 3.5',
       'Programming Language :: Python :: 3.6',
   ],
-  install_requires=['PyYAML == 3.12',
+  install_requires=['PyYAML == 5.1',
                     'requests == 2.18.4'],
   entry_points={
         'console_scripts': [
