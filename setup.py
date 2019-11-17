@@ -45,7 +45,7 @@ setup(
       'Programming Language :: Python :: 3.6',
   ],
   install_requires=['PyYAML == 5.1',
-                    'requests == 2.18.4'],
+                    'requests == 2.20.0'],
   entry_points={
         'console_scripts': [
             'flickr_to_50mm=flickr_to_50mm.flickr_to_50mm:main',
